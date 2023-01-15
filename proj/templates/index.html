@@ -3,29 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diabetes Prediction Project</title>
+    <title>Akciğer Kanseri Tahmini</title>
 </head>
 <body>
 
     <div>
-    <h1>Diabetes Prediction Project</h1>
+    <h1>Akciğer Kanseri Tahmini</h1>
 
     <form action="{{ url_for('predict')}}"method="post">
-        Number of Pregnancies: <input type="text" name="Pregnancies" id="Pregnancies" placeholder="Pregnancies">
+        Smoking: <input type="text" name="Pregnancies" id="Pregnancies" placeholder="Smoking">
         <br> <br>
-        Glucose Level: <input type="text" name="Glucose" id="Glucose" placeholder="Glucose">
+        Age: <input type="text" name="Glucose" id="Glucose" placeholder="Age">
         <br> <br>
-        Blood Pressure: <input type="text" name="Blood" id="Blood" placeholder="Blood">
+        Gender: <input type="text" name="Blood" id="Blood" placeholder="Gender">
         <br> <br>
-        Skin Thickness: <input type="text" name="Skin" id="Skin" placeholder="Skin">
+        Air Pollution: <input type="text" name="Skin" id="Skin" placeholder="Air Pollution">
         <br> <br>
-        Insulin Level: <input type="text" name="Insulin" id="Insulin" placeholder="Insulin">
+        Alcohol use: <input type="text" name="Insulin" id="Insulin" placeholder="Alcohol use">
         <br> <br>
-        Body Mass Index: <input type="text" name="bmi" id="bmi" placeholder="bmi">
+        Obesity: <input type="text" name="bmi" id="bmi" placeholder="Obesity">
         <br> <br>
-        Diabetes Pedigree Function: <input type="text" name="PedigreeFunction" id="PedigreeFunction" placeholder="PedigreeFunction">
+        Dust Allergy: <input type="text" name="PedigreeFunction" id="PedigreeFunction" placeholder="Dust Allergy">
         <br> <br>
-        Age: <input type="text" name="age" id="age" placeholder="Age">
+        Genetic Risk: <input type="text" name="age" id="age" placeholder="Genetic Risk">
         <br> <br>
         <button type="submit">Predict</button>
 
